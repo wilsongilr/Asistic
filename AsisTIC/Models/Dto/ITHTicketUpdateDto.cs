@@ -3,9 +3,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AsisTIC.Models.Dto
 {
-    public class ITHTicketDto
+    public class ITHTicketUpdateDto
     {
-        
+        [Required]
         public int IdTicket { get; set; }
         [Required]
         [ForeignKey(nameof(IdSolicitud))]

@@ -3,6 +3,7 @@ using AsisTIC.Models;
 using AsisTIC.Models.Dto;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace AsisTIC.Controllers
 {
@@ -21,9 +22,9 @@ namespace AsisTIC.Controllers
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public ActionResult<IEnumerable<ITHTicketDto>> GetTickets()
+        public async Task<ActionResult<IEnumerable<ITHTicketDto>>> GetTickets()
         {
-            return Ok(_context.ITHticket.ToList());
+            return Ok(await _context.ITHticket.ToListAsync());
         }
 
         [HttpGet("id:int", Name ="GetTicket")]
@@ -31,13 +32,13 @@ namespace AsisTIC.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
 
-        public ActionResult<ITHTicketDto> GetTickets(int id)
+        public async Task<ActionResult<ITHTicketDto>> GetTickets(int id)
         {
             if(id==0)
             {
                 return BadRequest();
             }
-            var ticket = _context.ITHticket.FirstOrDefault(t => t.IdTicket  == id); 
+            var ticket = await _context.ITHticket.FirstOrDefaultAsync(t => t.IdTicket  == id); 
 
             if(ticket==null)
             {
@@ -52,15 +53,16 @@ namespace AsisTIC.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
 
-        public ActionResult<ITHTicketDto> CrearTicket([FromBody] ITHTicketDto ticketdto)
+        public async Task<ActionResult<ITHTicketDto>> CrearTicket([FromBody] ITHTickeCreatetDto ticketdto)
         {
             if(!ModelState.IsValid) 
             {
-                return BadRequest();    
+                return BadRequest(ModelState);    
             }
-            if(ticketdto.IdTicket>0)
+
+            if(ticketdto == null)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError);
+                return BadRequest(ticketdto);
             }
 
             ITHTicket modelo = new()
@@ -75,10 +77,10 @@ namespace AsisTIC.Controllers
 
             };
 
-            _context.ITHticket.Add(modelo);
-            _context.SaveChanges();
+           await _context.ITHticket.AddAsync(modelo);
+            await _context.SaveChangesAsync();
 
-            return CreatedAtRoute("GetTicket", new { id = ticketdto.IdTicket }, ticketdto);
+            return CreatedAtRoute("GetTicket", new { id = modelo.IdTicket }, modelo);
 
         }
 

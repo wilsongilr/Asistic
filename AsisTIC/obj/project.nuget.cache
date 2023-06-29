@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "p4/b+vq7nv0h/3jvOgzeJ2GWk8TKyhWCv2he9XEkFHYX05Aii/r+IFPt+S37vxE+vSj7aR6QCf8itfHauKY75A==",
+  "dgSpecHash": "jM2t+Md2ph1v/Uh/Ri4OKe16E1xbK9Kiidt0BdIEfn1Ah4oQAs83gCMXY0yRd8B7kdwDawUgcz56KJbbtOtIoQ==",
   "success": true,
-  "projectFilePath": "G:\\AsisTIC\\AsisTIC\\AsisTIC.csproj",
+  "projectFilePath": "D:\\Asistic\\AsisTIC\\AsisTIC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wgilr\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\wgilr\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\wgilr\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\wgilr\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
     "C:\\Users\\wgilr\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\wgilr\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\wgilr\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",
     "C:\\Users\\wgilr\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.0.1\\microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "C:\\Users\\wgilr\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.8\\microsoft.entityframeworkcore.7.0.8.nupkg.sha512",
