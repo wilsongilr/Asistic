@@ -150,3 +150,7 @@ D:\Asistic\AsisTIC\obj\Debug\net7.0\refint\AsisTIC.dll
 D:\Asistic\AsisTIC\obj\Debug\net7.0\AsisTIC.pdb
 D:\Asistic\AsisTIC\obj\Debug\net7.0\AsisTIC.genruntimeconfig.cache
 D:\Asistic\AsisTIC\obj\Debug\net7.0\ref\AsisTIC.dll
+G:\Asistic\AsisTIC\bin\Debug\net7.0\AutoMapper.dll
+G:\Asistic\AsisTIC\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Asistic\AsisTIC\bin\Debug\net7.0\AutoMapper.dll
+D:\Asistic\AsisTIC\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

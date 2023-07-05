@@ -16,8 +16,10 @@ namespace AsisTIC.Models.Dto
         public string Descripcion { get; set; }
         [ForeignKey(nameof(IdEstado))]
         public int IdEstado { get; set; }
-        public string UsrSolicita { get; set; } 
-      
-       
+        public string UsrSolicita { get; set; }
+        public DateTime FechaSolicitud { get; set; }
+
+
+
     }
 }

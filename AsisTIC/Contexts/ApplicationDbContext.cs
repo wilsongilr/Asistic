@@ -19,6 +19,7 @@ namespace AsisTIC.Contexts
         }
 
         public DbSet<ITHTicket> ITHticket { get; set; }
+        public DbSet<ITHTipoSolicitud> ITHtipoSolicitud  { get; set; }
         //public DbSet<ITHTicketDto> ITHTicketDtos { get; set; }
         //public DbSet<ITHTickeCreatetDto> iTHTickeCreatetDtos { get; set; }  
     }

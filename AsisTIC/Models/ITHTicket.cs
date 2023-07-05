@@ -8,7 +8,7 @@ namespace AsisTIC.Models
         [Key]
         public int IdTicket { get; set; }
         [Required]
-        [ForeignKey(nameof(IdSolicitud))]
+        [ForeignKey("IdSolicitud")]
         public int IdSolicitud { get; set; }
         [Required]
         public string Solicitud { get; set; }
@@ -19,5 +19,7 @@ namespace AsisTIC.Models
         public string UsrSolicita { get; set; }
         public DateTime FechaSolicitud { get; set; }
         public bool Adjunto { get; set; }
+        
+
     }
 }

@@ -10,5 +10,6 @@ namespace AsisTIC.Models
         public string solicitud { get; set; }
         public bool Activo { get; set; }    
 
+
     }
 }

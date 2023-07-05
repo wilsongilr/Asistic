@@ -1,0 +1,46 @@
+﻿@model IEnumerable<AsisTICWeb.Models.Dto.ITHTicketDto>
+@{
+    ViewData["Title"] = "IndexTickets";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container p-4 border">
+    <div class="row pb-2">
+        <div class="col">
+            <h1 class="text-primary">Tickets</h1>
+        </div>
+        <div class="col text-end pt-1">
+            <a asp-controller="Ticket" asp-action="CrearTicket"  class="btn btn-outline-primary"><i class="bi bi-file-plus"></i>Crear Ticket</a>
+        </div>
+    </div> 
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Ticket</th>
+                <th>Solicitud</th>
+                <th>Descripcion</th>
+                <th>Fecha</th>
+                <th>Usuario</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.IdTicket</td>
+                    <td>@item.Solicitud</td>
+                    <td>@item.Descripcion</td>
+                    <td>@item.FechaSolicitud</td>
+                    <td>@item.UsrSolicita</td>
+                    <td>
+                        <a asp-controller="VerTicket" class="btn btn-outline-success"><i class="bi bi-ticket-detailed"></i></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+
+</div>      

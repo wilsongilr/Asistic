@@ -1,4 +1,8 @@
+using AsisTIC;
 using AsisTIC.Contexts;
+using AsisTIC.Models.Dto;
+using AsisTIC.Repositorio;
+using AsisTIC.Repositorio.IRepositorio;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +17,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(option =>
 });
 
 
+builder.Services.AddAutoMapper(typeof(MappingConfig));
+
+builder.Services.AddScoped<ITicketRepositorio, TicketRepositorio>();
+
+builder.Services.AddScoped<ITicketTipoSolicitudRepositorio, TicketTipoSolicitudRepositorio>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
