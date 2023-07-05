@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+6Q9XziJ3MMXKelJueHalHosFdOPAGnTXR0iTtjeQ2El7x2Tp9qmf8tMY/X1pqyb1WNrCVgDiLYGqN5u2cXxbw==",
+  "dgSpecHash": "vHmb+mbJtDmmZGdh4SeTR0tsNlzARfJrdFzgRR+u6xzk63EJE3KYDgQsH6FL86sR/KQsGqo/3x42Z+MaUrjhPw==",
   "success": true,
-  "projectFilePath": "D:\\Asistic\\AsisTICWeb\\AsisTICWeb.csproj",
+  "projectFilePath": "G:\\Asistic\\AsisTICWeb\\AsisTICWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wgilr\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\wgilr\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

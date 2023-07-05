@@ -1,42 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Asistic\\AsisTICWeb\\AsisTICWeb.csproj": {}
+    "G:\\Asistic\\AsisTICWeb\\AsisTICWeb.csproj": {}
   },
   "projects": {
-    "D:\\Asistic\\AsisTICWeb\\AsisTICWeb.csproj": {
+    "G:\\Asistic\\AsisTICWeb\\AsisTICWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Asistic\\AsisTICWeb\\AsisTICWeb.csproj",
+        "projectUniqueName": "G:\\Asistic\\AsisTICWeb\\AsisTICWeb.csproj",
         "projectName": "AsisTICWeb",
-        "projectPath": "D:\\Asistic\\AsisTICWeb\\AsisTICWeb.csproj",
+        "projectPath": "G:\\Asistic\\AsisTICWeb\\AsisTICWeb.csproj",
         "packagesPath": "C:\\Users\\wgilr\\.nuget\\packages\\",
-        "outputPath": "D:\\Asistic\\AsisTICWeb\\obj\\",
+        "outputPath": "G:\\Asistic\\AsisTICWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\wgilr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Asistic\\AsisTIC_Utilidad\\AsisTIC_Utilidad.csproj": {
-                "projectPath": "D:\\Asistic\\AsisTIC_Utilidad\\AsisTIC_Utilidad.csproj"
+              "G:\\Asistic\\AsisTIC_Utilidad\\AsisTIC_Utilidad.csproj": {
+                "projectPath": "G:\\Asistic\\AsisTIC_Utilidad\\AsisTIC_Utilidad.csproj"
               }
             }
           }
@@ -95,31 +95,31 @@
         }
       }
     },
-    "D:\\Asistic\\AsisTIC_Utilidad\\AsisTIC_Utilidad.csproj": {
+    "G:\\Asistic\\AsisTIC_Utilidad\\AsisTIC_Utilidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Asistic\\AsisTIC_Utilidad\\AsisTIC_Utilidad.csproj",
+        "projectUniqueName": "G:\\Asistic\\AsisTIC_Utilidad\\AsisTIC_Utilidad.csproj",
         "projectName": "AsisTIC_Utilidad",
-        "projectPath": "D:\\Asistic\\AsisTIC_Utilidad\\AsisTIC_Utilidad.csproj",
+        "projectPath": "G:\\Asistic\\AsisTIC_Utilidad\\AsisTIC_Utilidad.csproj",
         "packagesPath": "C:\\Users\\wgilr\\.nuget\\packages\\",
-        "outputPath": "D:\\Asistic\\AsisTIC_Utilidad\\obj\\",
+        "outputPath": "G:\\Asistic\\AsisTIC_Utilidad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\wgilr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net7.0": {

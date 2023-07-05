@@ -2,23 +2,35 @@
 @{
     ViewData["Title"] = "CrearTicket";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    List<SelectListItem> items = (List<SelectListItem>)ViewBag.items;
+    
 }
 
 <h1>CrearTicket</h1>
 
 <form method="post" asp-action="CrearTicket">
+    
     <div class="container border p-3">
         <div asp-validation-summary="ModelOnly"  class="text-danger"></div>
+       
         <div class="row">
             <h2 class="text-info">Crear Nuevo Ticket</h2>
         </div>
+    
 
         <div class="row mt-2">
+          
             <div class="col-md-6">
                 <label class="form-label">Seleccione Solicitud</label>
-                <select class="form-select" asp-for="IdSolicitud"></select>
+              @*  <select class="form-select" asp-for="IdSolicitud"></select>*@
                 <span asp-validation-for="IdSolicitud" class="text-danger"></span>
+
+
+                @Html.DropDownList("datos",items, "Select Solicitud",new { @class = "form-control" })
+         
+
             </div>
+           
         </div>
         <div class="row mt-2">
             <div class="col-md-6">
@@ -45,6 +57,9 @@
             <button type="submit" class="btn btn-primary">Guardar</button>
             <a asp-controller="Ticket" asp-action="IndexTickets" class="btn btn-success">Regresar</a>
 
+        </div>
+        <div class="row">
+            <div class="col-md-6"></div>
         </div>
 
     </div>

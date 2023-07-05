@@ -17,4 +17,7 @@ namespace AsisTICWeb.Models.Dto
     //    public DateTime FechaSolicitud { get; set;}
       
     }
+
+
+  
 }

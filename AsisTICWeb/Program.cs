@@ -9,7 +9,9 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddAutoMapper(typeof(MappingConfig));
 builder.Services.AddHttpClient<ITicketService, TicketService>();
-builder.Services.AddScoped<ITicketService, TicketService>();    
+builder.Services.AddScoped<ITicketService, TicketService>();
+builder.Services.AddHttpClient<ITipolicitudService, TipoSolicitudService>();
+builder.Services.AddScoped<ITipolicitudService, TipoSolicitudService>();
 
 var app = builder.Build();
 

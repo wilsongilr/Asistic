@@ -94,7 +94,7 @@ namespace AsisTIC.Controllers
 
 
         //--Esta opcion es con el mapper mejor así///
-        [HttpGet("id:int", Name = "GetTicket")]
+        [HttpGet("{id:int}", Name = "GetTicket")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]

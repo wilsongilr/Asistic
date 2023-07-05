@@ -1,35 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Asistic\\AsisTIC\\AsisTIC.csproj": {}
+    "G:\\Asistic\\AsisTIC\\AsisTIC.csproj": {}
   },
   "projects": {
-    "D:\\Asistic\\AsisTIC\\AsisTIC.csproj": {
+    "G:\\Asistic\\AsisTIC\\AsisTIC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Asistic\\AsisTIC\\AsisTIC.csproj",
+        "projectUniqueName": "G:\\Asistic\\AsisTIC\\AsisTIC.csproj",
         "projectName": "AsisTIC",
-        "projectPath": "D:\\Asistic\\AsisTIC\\AsisTIC.csproj",
+        "projectPath": "G:\\Asistic\\AsisTIC\\AsisTIC.csproj",
         "packagesPath": "C:\\Users\\wgilr\\.nuget\\packages\\",
-        "outputPath": "D:\\Asistic\\AsisTIC\\obj\\",
+        "outputPath": "G:\\Asistic\\AsisTIC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\wgilr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net7.0": {
